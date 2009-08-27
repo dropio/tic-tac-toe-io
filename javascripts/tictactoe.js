@@ -1,5 +1,5 @@
 window.api_key = "54eae287208ddeebc39440f69c9d8729f80cfcb5";
-window.xd_path = "http://tictactoe.io/DropioJSClientXDReceiver.html";
+window.xd_path = "http://tictactoe.api.drop.io/DropioJSClientXDReceiver.html";
 
 // TicTacToe
 var TicTacToe = Class.create({
@@ -29,7 +29,7 @@ var TicTacToe = Class.create({
 		DropioStreamer.observe(DropioStreamer.RECEIVED_MESSAGE,this.receivedMessage.bind(this));
 
 		// start the stream
-		DropioStreamer.start(this.drop,this.chatPassword,"http://tictactoe.io/streamer_xdr.html");
+		DropioStreamer.start(this.drop,this.chatPassword,"http://tictactoe.api.drop.io/streamer_xdr.html");
 	},
 	
 	createBoard: function() {
