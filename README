@@ -1,0 +1,3 @@
+Tic Tac Toe is an example API application built using drop.io's new realtime javascript API library. The entire app consists solely of a few static HTML, javascript, and CSS files, and was built in less than 2 days. For a detailed walkthrough of this application's code and how you can begin using the realtime library as well as version 2 of the regular javascript API library, visit http://docs.drop.io
+
+For questions or comments about this app or the javascript libraries, contact shaun@dropio.com
