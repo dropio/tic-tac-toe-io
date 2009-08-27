@@ -1,0 +1,189 @@
+body {
+	font-family: Verdana;
+}
+
+.header {
+	width: 100%;
+	height: 48px;
+	background: url(/images/tictactoe.png) no-repeat center;
+}
+
+.newGame {
+	width: 211px;
+	height: 80px;
+	background: url(/images/newgame.png) no-repeat center;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+
+.newGame:hover {
+	background: url(/images/newgame_hover.png) no-repeat center;	
+	cursor: pointer;
+}
+
+.newGameSpinner, .newGameSpinner:hover {
+	background: url(/images/spinner.gif) no-repeat center;
+	cursor: normal;	
+}
+
+.content {
+	width: 600px;
+	font-size: 12px;
+	margin: 0 auto;
+	margin-top: 75px;
+}
+
+.content .overlay {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: white;
+	opacity: 0.8;
+}
+
+.content .waiting,
+.content .oops {
+	font-size:16px;
+	font-weight:bold;
+	left:8px;
+	position:relative;
+	text-align:center;
+	top:-196px;
+	width:348px;
+}
+
+.content .waiting .tell,
+.content .oops .oopsText {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.content .playAgain {
+	background:transparent url(/images/again.png) no-repeat scroll center center;
+	height:80px;
+	left:68px;
+	position:relative;
+	top:-215px;
+	width:211px;
+}
+
+.content .playAgain:hover {
+	background: url(/images/again_hover.png) no-repeat center;	
+	cursor: pointer;
+}
+
+.content .messageBox {
+	width: 348px;
+	height: 50px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.content .messageBox .messageDisplay {
+	width: 100%;
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	height: 30px;
+	overflow: hidden;
+}
+
+.content .messageBox #enterMessage {
+	width: 100%;
+	border: 2px solid black;
+	font-size: 10px;
+	margin-top: 10px;
+} 
+
+.content .board {
+	width: 348px;
+	height: 348px;
+	margin: 0 auto;
+}
+
+.content .square {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 5px;
+	border: 3px solid black;
+	cursor: pointer;
+}
+
+.content .square.O {
+	background: url(/images/o.png) no-repeat center;
+}
+
+.content .square.X {
+	background: url(/images/x.png) no-repeat center;
+}
+
+.content .square.O.win {
+	background: url(/images/o_red.png) no-repeat center;
+}
+
+.content .square.X.win {
+	background: url(/images/x_red.png) no-repeat center;
+}
+
+.content .square.top {
+	border-top-color: white;
+}
+
+.content .square.bottom {
+	border-bottom-color: white;
+}
+
+.content .square.left {
+	border-left-color: white;
+}
+
+.content .square.right {
+	border-right-color: white;
+}
+
+.content .resetGame {
+	background:transparent url(/images/reset_game.png) no-repeat scroll center center;
+	height:50px;
+	left:98px;
+	position:relative;
+	top:364px;
+	width:150px;
+}
+
+.content .resetGame:hover {
+	background: url(/images/reset_game_hover.png) no-repeat center;
+}
+
+.footer {
+	height: 25px;
+	width: 280px;
+	margin: 0 auto;
+	margin-top: 75px;
+}
+
+.footerEntry {
+	float:left;
+	margin-left: 25px;
+}
+
+.footerEntryFirst {
+	margin-left: 0px;
+}
+
+.footerEntry a {
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.footerEntry a:hover {
+	text-decoration: underline;
+}
+
+
