@@ -48,7 +48,7 @@
 						startingGame = false;
 					} else {
 						// success! take the user to his/her game
-						window.location.pathname = "/play.html?game=" + response["name"] + "&key=" + response["chat_password"];
+						top.location = "http://tictactoe.api.drop.io/play.html?game=" + response["name"] + "&key=" + response["chat_password"];
 					}
 				});
 			}
